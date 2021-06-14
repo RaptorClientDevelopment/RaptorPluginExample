@@ -63,7 +63,7 @@ dependencies {
 		exclude module: 'gson'
 		exclude module: 'commons-io'
 	}
-	implementation(files("libs/RaptorClientSDK1.0"))
+	implementation(files("libs/RaptorClientSDK"))
 	compile 'com.github.ZeroMemes:Alpine:1.5'
 	compile group: 'net.jodah', name: 'typetools', version: '0.5.0'
 	compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
